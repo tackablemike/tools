@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE9281FB185F801D004F2321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9281FA185F801D004F2321 /* Foundation.framework */; };
+		FE9281FD185F801D004F2321 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9281FC185F801D004F2321 /* CoreGraphics.framework */; };
+		FE9281FF185F801D004F2321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9281FE185F801D004F2321 /* UIKit.framework */; };
+		FE928205185F801D004F2321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE928203185F801D004F2321 /* InfoPlist.strings */; };
+		FE928207185F801D004F2321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE928206185F801D004F2321 /* main.m */; };
+		FE92820B185F801D004F2321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92820A185F801D004F2321 /* AppDelegate.m */; };
+		FE92820E185F801D004F2321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE92820C185F801D004F2321 /* Main.storyboard */; };
+		FE928211185F801D004F2321 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE928210185F801D004F2321 /* FirstViewController.m */; };
+		FE928214185F801D004F2321 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE928213185F801D004F2321 /* SecondViewController.m */; };
+		FE928216185F801D004F2321 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE928215185F801D004F2321 /* Images.xcassets */; };
+		FE92821D185F801D004F2321 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE92821C185F801D004F2321 /* XCTest.framework */; };
+		FE92821E185F801D004F2321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9281FA185F801D004F2321 /* Foundation.framework */; };
+		FE92821F185F801D004F2321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9281FE185F801D004F2321 /* UIKit.framework */; };
+		FE928227185F801D004F2321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE928225185F801D004F2321 /* InfoPlist.strings */; };
+		FE928229185F801D004F2321 /* sb_tullyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE928228185F801D004F2321 /* sb_tullyTests.m */; };
+		FE928233185F805C004F2321 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE928232185F805C004F2321 /* Login.storyboard */; };
+		FE928239185F8408004F2321 /* RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FE928238185F8408004F2321 /* RBStoryboardLink.m */; };
+		FE92823B185F88ED004F2321 /* Directory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE92823A185F88ED004F2321 /* Directory.storyboard */; };
+		FE92823E185F8A28004F2321 /* UIViewController+BackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE92823D185F8A28004F2321 /* UIViewController+BackButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE928220185F801D004F2321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9281EF185F801D004F2321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9281F6185F801D004F2321;
+			remoteInfo = "sb-tully";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE9281F7185F801D004F2321 /* sb-tully.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sb-tully.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9281FA185F801D004F2321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE9281FC185F801D004F2321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE9281FE185F801D004F2321 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE928202185F801D004F2321 /* sb-tully-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sb-tully-Info.plist"; sourceTree = "<group>"; };
+		FE928204185F801D004F2321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE928206185F801D004F2321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE928208185F801D004F2321 /* sb-tully-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sb-tully-Prefix.pch"; sourceTree = "<group>"; };
+		FE928209185F801D004F2321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE92820A185F801D004F2321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE92820D185F801D004F2321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE92820F185F801D004F2321 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FE928210185F801D004F2321 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FE928212185F801D004F2321 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FE928213185F801D004F2321 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FE928215185F801D004F2321 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE92821B185F801D004F2321 /* sb-tullyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sb-tullyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE92821C185F801D004F2321 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FE928224185F801D004F2321 /* sb-tullyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sb-tullyTests-Info.plist"; sourceTree = "<group>"; };
+		FE928226185F801D004F2321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE928228185F801D004F2321 /* sb_tullyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sb_tullyTests.m; sourceTree = "<group>"; };
+		FE928232185F805C004F2321 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
+		FE928237185F8408004F2321 /* RBStoryboardLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLink.h; path = 3rdParty/RBStoryboardLink.h; sourceTree = "<group>"; };
+		FE928238185F8408004F2321 /* RBStoryboardLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardLink.m; path = 3rdParty/RBStoryboardLink.m; sourceTree = "<group>"; };
+		FE92823A185F88ED004F2321 /* Directory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Directory.storyboard; path = Storyboards/Directory.storyboard; sourceTree = "<group>"; };
+		FE92823C185F8A28004F2321 /* UIViewController+BackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BackButton.h"; path = "3rdParty/UIViewController+BackButton.h"; sourceTree = "<group>"; };
+		FE92823D185F8A28004F2321 /* UIViewController+BackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BackButton.m"; path = "3rdParty/UIViewController+BackButton.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9281F4185F801D004F2321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9281FD185F801D004F2321 /* CoreGraphics.framework in Frameworks */,
+				FE9281FF185F801D004F2321 /* UIKit.framework in Frameworks */,
+				FE9281FB185F801D004F2321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE928218185F801D004F2321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE92821D185F801D004F2321 /* XCTest.framework in Frameworks */,
+				FE92821F185F801D004F2321 /* UIKit.framework in Frameworks */,
+				FE92821E185F801D004F2321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE9281EE185F801D004F2321 = {
+			isa = PBXGroup;
+			children = (
+				FE928200185F801D004F2321 /* sb-tully */,
+				FE928222185F801D004F2321 /* sb-tullyTests */,
+				FE9281F9185F801D004F2321 /* Frameworks */,
+				FE9281F8185F801D004F2321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9281F8185F801D004F2321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9281F7185F801D004F2321 /* sb-tully.app */,
+				FE92821B185F801D004F2321 /* sb-tullyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9281F9185F801D004F2321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9281FA185F801D004F2321 /* Foundation.framework */,
+				FE9281FC185F801D004F2321 /* CoreGraphics.framework */,
+				FE9281FE185F801D004F2321 /* UIKit.framework */,
+				FE92821C185F801D004F2321 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE928200185F801D004F2321 /* sb-tully */ = {
+			isa = PBXGroup;
+			children = (
+				FE928235185F83B9004F2321 /* 3rdParty */,
+				FE928234185F8064004F2321 /* Storyboards */,
+				FE928209185F801D004F2321 /* AppDelegate.h */,
+				FE92820A185F801D004F2321 /* AppDelegate.m */,
+				FE92820C185F801D004F2321 /* Main.storyboard */,
+				FE92820F185F801D004F2321 /* FirstViewController.h */,
+				FE928210185F801D004F2321 /* FirstViewController.m */,
+				FE928212185F801D004F2321 /* SecondViewController.h */,
+				FE928213185F801D004F2321 /* SecondViewController.m */,
+				FE928215185F801D004F2321 /* Images.xcassets */,
+				FE928201185F801D004F2321 /* Supporting Files */,
+			);
+			path = "sb-tully";
+			sourceTree = "<group>";
+		};
+		FE928201185F801D004F2321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE928202185F801D004F2321 /* sb-tully-Info.plist */,
+				FE928203185F801D004F2321 /* InfoPlist.strings */,
+				FE928206185F801D004F2321 /* main.m */,
+				FE928208185F801D004F2321 /* sb-tully-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE928222185F801D004F2321 /* sb-tullyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE928228185F801D004F2321 /* sb_tullyTests.m */,
+				FE928223185F801D004F2321 /* Supporting Files */,
+			);
+			path = "sb-tullyTests";
+			sourceTree = "<group>";
+		};
+		FE928223185F801D004F2321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE928224185F801D004F2321 /* sb-tullyTests-Info.plist */,
+				FE928225185F801D004F2321 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE928234185F8064004F2321 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FE928232185F805C004F2321 /* Login.storyboard */,
+				FE92823A185F88ED004F2321 /* Directory.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FE928235185F83B9004F2321 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				FE92823C185F8A28004F2321 /* UIViewController+BackButton.h */,
+				FE92823D185F8A28004F2321 /* UIViewController+BackButton.m */,
+				FE928236185F83C3004F2321 /* RBStoryboardLink */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		FE928236185F83C3004F2321 /* RBStoryboardLink */ = {
+			isa = PBXGroup;
+			children = (
+				FE928237185F8408004F2321 /* RBStoryboardLink.h */,
+				FE928238185F8408004F2321 /* RBStoryboardLink.m */,
+			);
+			name = RBStoryboardLink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9281F6185F801D004F2321 /* sb-tully */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE92822C185F801D004F2321 /* Build configuration list for PBXNativeTarget "sb-tully" */;
+			buildPhases = (
+				FE9281F3185F801D004F2321 /* Sources */,
+				FE9281F4185F801D004F2321 /* Frameworks */,
+				FE9281F5185F801D004F2321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sb-tully";
+			productName = "sb-tully";
+			productReference = FE9281F7185F801D004F2321 /* sb-tully.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE92821A185F801D004F2321 /* sb-tullyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE92822F185F801D004F2321 /* Build configuration list for PBXNativeTarget "sb-tullyTests" */;
+			buildPhases = (
+				FE928217185F801D004F2321 /* Sources */,
+				FE928218185F801D004F2321 /* Frameworks */,
+				FE928219185F801D004F2321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE928221185F801D004F2321 /* PBXTargetDependency */,
+			);
+			name = "sb-tullyTests";
+			productName = "sb-tullyTests";
+			productReference = FE92821B185F801D004F2321 /* sb-tullyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9281EF185F801D004F2321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tapclicks;
+				TargetAttributes = {
+					FE92821A185F801D004F2321 = {
+						TestTargetID = FE9281F6185F801D004F2321;
+					};
+				};
+			};
+			buildConfigurationList = FE9281F2185F801D004F2321 /* Build configuration list for PBXProject "sb-tully" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9281EE185F801D004F2321;
+			productRefGroup = FE9281F8185F801D004F2321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9281F6185F801D004F2321 /* sb-tully */,
+				FE92821A185F801D004F2321 /* sb-tullyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9281F5185F801D004F2321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE928233185F805C004F2321 /* Login.storyboard in Resources */,
+				FE92823B185F88ED004F2321 /* Directory.storyboard in Resources */,
+				FE928216185F801D004F2321 /* Images.xcassets in Resources */,
+				FE928205185F801D004F2321 /* InfoPlist.strings in Resources */,
+				FE92820E185F801D004F2321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE928219185F801D004F2321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE928227185F801D004F2321 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9281F3185F801D004F2321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE928214185F801D004F2321 /* SecondViewController.m in Sources */,
+				FE92820B185F801D004F2321 /* AppDelegate.m in Sources */,
+				FE928239185F8408004F2321 /* RBStoryboardLink.m in Sources */,
+				FE928211185F801D004F2321 /* FirstViewController.m in Sources */,
+				FE928207185F801D004F2321 /* main.m in Sources */,
+				FE92823E185F8A28004F2321 /* UIViewController+BackButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE928217185F801D004F2321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE928229185F801D004F2321 /* sb_tullyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE928221185F801D004F2321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9281F6185F801D004F2321 /* sb-tully */;
+			targetProxy = FE928220185F801D004F2321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE928203185F801D004F2321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE928204185F801D004F2321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE92820C185F801D004F2321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE92820D185F801D004F2321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE928225185F801D004F2321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE928226185F801D004F2321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE92822A185F801D004F2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE92822B185F801D004F2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE92822D185F801D004F2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sb-tully/sb-tully-Prefix.pch";
+				INFOPLIST_FILE = "sb-tully/sb-tully-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE92822E185F801D004F2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sb-tully/sb-tully-Prefix.pch";
+				INFOPLIST_FILE = "sb-tully/sb-tully-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FE928230185F801D004F2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sb-tully.app/sb-tully";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sb-tully/sb-tully-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sb-tullyTests/sb-tullyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FE928231185F801D004F2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sb-tully.app/sb-tully";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sb-tully/sb-tully-Prefix.pch";
+				INFOPLIST_FILE = "sb-tullyTests/sb-tullyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9281F2185F801D004F2321 /* Build configuration list for PBXProject "sb-tully" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE92822A185F801D004F2321 /* Debug */,
+				FE92822B185F801D004F2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE92822C185F801D004F2321 /* Build configuration list for PBXNativeTarget "sb-tully" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE92822D185F801D004F2321 /* Debug */,
+				FE92822E185F801D004F2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE92822F185F801D004F2321 /* Build configuration list for PBXNativeTarget "sb-tullyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE928230185F801D004F2321 /* Debug */,
+				FE928231185F801D004F2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE9281EF185F801D004F2321 /* Project object */;
+}
